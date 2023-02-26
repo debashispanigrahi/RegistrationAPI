@@ -1,0 +1,105 @@
+2023-02-26 23:41:15.183 +05:30 [INF] Now listening on: https://localhost:7110
+2023-02-26 23:41:15.189 +05:30 [INF] Now listening on: http://localhost:5176
+2023-02-26 23:41:15.190 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-26 23:41:15.190 +05:30 [INF] Hosting environment: Development
+2023-02-26 23:41:15.190 +05:30 [INF] Content root path: /Users/debashispanigrahi/Desktop/Practice/Interview-Assignment/RegistrationAPI/RegForm
+2023-02-26 23:41:16.406 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/index.html - -
+2023-02-26 23:41:16.470 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/index.html - - - 200 - text/html;charset=utf-8 64.7270ms
+2023-02-26 23:41:16.554 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - -
+2023-02-26 23:41:16.598 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 43.7206ms
+2023-02-26 23:41:23.972 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/api/Register - -
+2023-02-26 23:41:23.980 +05:30 [INF] Executing endpoint 'RegForm.Controllers.UserRegController.TestException (RegForm)'
+2023-02-26 23:41:23.992 +05:30 [INF] Route matched with {action = "TestException", controller = "UserReg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestException() on controller RegForm.Controllers.UserRegController (RegForm).
+2023-02-26 23:41:26.860 +05:30 [INF] Executed action RegForm.Controllers.UserRegController.TestException (RegForm) in 2862.7816ms
+2023-02-26 23:41:26.864 +05:30 [INF] Executed endpoint 'RegForm.Controllers.UserRegController.TestException (RegForm)'
+2023-02-26 23:41:26.888 +05:30 [INF] Insufficient memory to continue the execution of the program.
+2023-02-26 23:41:26.891 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/api/Register - - - 500 - application/json 2919.0158ms
+2023-02-26 23:42:59.093 +05:30 [INF] Now listening on: https://localhost:7110
+2023-02-26 23:42:59.099 +05:30 [INF] Now listening on: http://localhost:5176
+2023-02-26 23:42:59.100 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-26 23:42:59.100 +05:30 [INF] Hosting environment: Development
+2023-02-26 23:42:59.100 +05:30 [INF] Content root path: /Users/debashispanigrahi/Desktop/Practice/Interview-Assignment/RegistrationAPI/RegForm
+2023-02-26 23:43:00.388 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/index.html - -
+2023-02-26 23:43:00.449 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/index.html - - - 200 - text/html;charset=utf-8 62.8840ms
+2023-02-26 23:43:00.548 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - -
+2023-02-26 23:43:00.592 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 43.4579ms
+2023-02-26 23:49:20.628 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7110/api/Register - -
+2023-02-26 23:49:20.667 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-02-26 23:49:20.668 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-02-26 23:49:20.669 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7110/api/Register - - - 405 0 - 44.5752ms
+2023-02-26 23:50:40.098 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7110/api/Register - -
+2023-02-26 23:50:40.101 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-02-26 23:50:40.101 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-02-26 23:50:40.102 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7110/api/Register - - - 405 0 - 4.3869ms
+2023-02-26 23:52:39.343 +05:30 [INF] Now listening on: https://localhost:7110
+2023-02-26 23:52:39.351 +05:30 [INF] Now listening on: http://localhost:5176
+2023-02-26 23:52:39.352 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-26 23:52:39.352 +05:30 [INF] Hosting environment: Development
+2023-02-26 23:52:39.352 +05:30 [INF] Content root path: /Users/debashispanigrahi/Desktop/Practice/Interview-Assignment/RegistrationAPI/RegForm
+2023-02-26 23:52:40.531 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/index.html - -
+2023-02-26 23:52:40.590 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/index.html - - - 200 - text/html;charset=utf-8 59.5666ms
+2023-02-26 23:52:40.691 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - -
+2023-02-26 23:52:40.741 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 50.0709ms
+2023-02-26 23:53:02.504 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7110/api/Register - -
+2023-02-26 23:53:02.515 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-02-26 23:53:02.515 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-02-26 23:53:02.516 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7110/api/Register - - - 405 0 - 12.2912ms
+2023-02-26 23:54:00.166 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7110/api/Register - -
+2023-02-26 23:54:00.168 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-02-26 23:54:00.168 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-02-26 23:54:00.168 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7110/api/Register - - - 405 0 - 2.0410ms
+2023-02-26 23:55:05.947 +05:30 [INF] Now listening on: https://localhost:7110
+2023-02-26 23:55:05.953 +05:30 [INF] Now listening on: http://localhost:5176
+2023-02-26 23:55:05.954 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-26 23:55:05.954 +05:30 [INF] Hosting environment: Development
+2023-02-26 23:55:05.954 +05:30 [INF] Content root path: /Users/debashispanigrahi/Desktop/Practice/Interview-Assignment/RegistrationAPI/RegForm
+2023-02-26 23:55:07.159 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/index.html - -
+2023-02-26 23:55:07.227 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/index.html - - - 200 - text/html;charset=utf-8 69.3870ms
+2023-02-26 23:55:07.313 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - -
+2023-02-26 23:55:07.355 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 42.1366ms
+2023-02-26 23:55:22.041 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7110/api/Register - -
+2023-02-26 23:55:22.052 +05:30 [INF] CORS policy execution failed.
+2023-02-26 23:55:22.053 +05:30 [INF] Request origin http://localhost:4200 does not have permission to access the resource.
+2023-02-26 23:55:22.055 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7110/api/Register - - - 204 - - 14.2807ms
+2023-02-26 23:55:45.335 +05:30 [INF] Now listening on: https://localhost:7110
+2023-02-26 23:55:45.341 +05:30 [INF] Now listening on: http://localhost:5176
+2023-02-26 23:55:45.341 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-26 23:55:45.342 +05:30 [INF] Hosting environment: Development
+2023-02-26 23:55:45.342 +05:30 [INF] Content root path: /Users/debashispanigrahi/Desktop/Practice/Interview-Assignment/RegistrationAPI/RegForm
+2023-02-26 23:55:46.482 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/index.html - -
+2023-02-26 23:55:46.541 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/index.html - - - 200 - text/html;charset=utf-8 60.0142ms
+2023-02-26 23:55:46.625 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - -
+2023-02-26 23:55:46.667 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 41.8279ms
+2023-02-26 23:56:00.166 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7110/api/Register - -
+2023-02-26 23:56:00.176 +05:30 [INF] CORS policy execution successful.
+2023-02-26 23:56:00.178 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7110/api/Register - - - 204 - - 12.5704ms
+2023-02-26 23:56:00.180 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/api/Register application/json;+charset=utf-8 -
+2023-02-26 23:56:00.181 +05:30 [INF] CORS policy execution successful.
+2023-02-26 23:56:00.187 +05:30 [INF] Executing endpoint 'RegForm.Controllers.UserRegController.TestException (RegForm)'
+2023-02-26 23:56:00.200 +05:30 [INF] Route matched with {action = "TestException", controller = "UserReg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestException() on controller RegForm.Controllers.UserRegController (RegForm).
+2023-02-26 23:56:06.420 +05:30 [INF] Executed action RegForm.Controllers.UserRegController.TestException (RegForm) in 6215.6555ms
+2023-02-26 23:56:06.426 +05:30 [INF] Executed endpoint 'RegForm.Controllers.UserRegController.TestException (RegForm)'
+2023-02-26 23:56:09.239 +05:30 [INF] Insufficient memory to continue the execution of the program.
+2023-02-26 23:56:10.646 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/api/Register application/json;+charset=utf-8 - - 500 - application/json 10466.9635ms
+2023-02-27 00:22:41.691 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7110/api/Register - -
+2023-02-27 00:22:41.697 +05:30 [INF] CORS policy execution successful.
+2023-02-27 00:22:41.699 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7110/api/Register - - - 204 - - 8.5649ms
+2023-02-27 00:22:41.701 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7110/api/Register application/json;+charset=utf-8 -
+2023-02-27 00:22:41.702 +05:30 [INF] CORS policy execution successful.
+2023-02-27 00:22:41.704 +05:30 [INF] Executing endpoint 'RegForm.Controllers.UserRegController.TestException (RegForm)'
+2023-02-27 00:22:41.710 +05:30 [INF] Route matched with {action = "TestException", controller = "UserReg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestException() on controller RegForm.Controllers.UserRegController (RegForm).
+2023-02-27 00:22:46.946 +05:30 [INF] Executed action RegForm.Controllers.UserRegController.TestException (RegForm) in 5236.1772ms
+2023-02-27 00:22:46.948 +05:30 [INF] Executed endpoint 'RegForm.Controllers.UserRegController.TestException (RegForm)'
+2023-02-27 00:22:46.971 +05:30 [INF] Insufficient memory to continue the execution of the program.
+2023-02-27 00:22:46.973 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7110/api/Register application/json;+charset=utf-8 - - 500 - application/json 5272.2668ms
+2023-02-27 00:31:08.388 +05:30 [INF] Request starting HTTP/1.1 OPTIONS https://localhost:7110/api/Register - -
+2023-02-27 00:31:08.392 +05:30 [INF] CORS policy execution successful.
+2023-02-27 00:31:08.393 +05:30 [INF] Request finished HTTP/1.1 OPTIONS https://localhost:7110/api/Register - - - 204 - - 5.0904ms
+2023-02-27 00:31:08.427 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7110/api/Register application/json;+charset=UTF-8 179
+2023-02-27 00:31:08.427 +05:30 [INF] CORS policy execution successful.
+2023-02-27 00:31:08.428 +05:30 [INF] Executing endpoint 'RegForm.Controllers.UserRegController.Register (RegForm)'
+2023-02-27 00:31:08.456 +05:30 [INF] Route matched with {action = "Register", controller = "UserReg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(RegForm.Models.RegFormModel) on controller RegForm.Controllers.UserRegController (RegForm).
+2023-02-27 00:32:20.318 +05:30 [INF] Executing OkObjectResult, writing value of type 'RegForm.Models.ResponseModel'.
+2023-02-27 00:32:20.320 +05:30 [INF] Executed action RegForm.Controllers.UserRegController.Register (RegForm) in 71866.5977ms
+2023-02-27 00:32:20.320 +05:30 [INF] Executed endpoint 'RegForm.Controllers.UserRegController.Register (RegForm)'
+2023-02-27 00:32:20.321 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7110/api/Register application/json;+charset=UTF-8 179 - 200 - application/json;+charset=utf-8 71897.3587ms
