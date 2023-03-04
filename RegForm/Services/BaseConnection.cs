@@ -8,12 +8,15 @@ namespace RegForm.Services
 {
     public class BaseConnection : IConnection
     {
-        IDbConnection idbconnection;
-
+        private readonly IConfiguration _configuration;
+        public BaseConnection(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
         public IDbConnection dbConnection()
         {
-            string conn = Convert.ToString(ConfigManager.Appsettings.GetSection("MyConn").Value);
-            idbconnection = new SqlConnection(conn);
+            string conn = Convert.ToString(_configuration.GetSection("MyConn").Value);
+            IDbConnection idbconnection = new SqlConnection(conn);
             return idbconnection;
         }
     }

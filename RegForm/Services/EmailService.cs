@@ -10,35 +10,28 @@ namespace RegForm.Services
     {
         public void SendEmail(EmailRequest EmailBody)
         {
-            try
-            {
-                string username = EmailBody.from;
-                string password = ConfigManager.Appsettings["Password"];
-                string MailTo = EmailBody.to;
+            string username = EmailBody.from;
+            string password = ConfigManager.Appsettings["Password"];
+            string MailTo = EmailBody.to;
 
-                string[] words = MailTo.Split(',');
-                foreach (var item in words)
+            string[] words = MailTo.Split(',');
+            foreach (var item in words)
+            {
+                using (MailMessage mail = new MailMessage())
                 {
-                    using (MailMessage mail = new MailMessage())
+                    mail.To.Add(item);
+                    mail.From = new MailAddress(EmailBody.from);
+                    mail.Subject = EmailBody.subject;
+                    mail.Body = EmailBody.messagebody;
+                    mail.IsBodyHtml = true;
+                    using (SmtpClient smtp = new SmtpClient(ConfigManager.Appsettings["SMTP"], Convert.ToInt32(ConfigManager.Appsettings["SMTPValue"])))
                     {
-                        mail.To.Add(item);
-                        mail.From = new MailAddress(EmailBody.from);
-                        mail.Subject = EmailBody.subject;
-                        mail.Body = EmailBody.messagebody;
-                        mail.IsBodyHtml = true;
-                        using (SmtpClient smtp = new SmtpClient(ConfigManager.Appsettings["SMTP"], Convert.ToInt32(ConfigManager.Appsettings["SMTPValue"])))
-                        {
-                            smtp.Credentials = new NetworkCredential
-                               (username, password);
-                            smtp.EnableSsl = true;
-                            smtp.Send(mail);
-                        }
+                        smtp.Credentials = new NetworkCredential
+                           (username, password);
+                        smtp.EnableSsl = true;
+                        smtp.Send(mail);
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                throw ex;
             }
         }
     }

@@ -32,7 +32,7 @@ namespace RegForm.Controllers
         }
 
         [HttpGet]
-        public IActionResult TestException()
+        public IActionResult TestException(string Test)
         {
             throw new OutOfMemoryException();
         }
